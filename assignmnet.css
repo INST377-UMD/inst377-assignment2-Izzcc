@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  background: #fff;
+  color: #333;
+}
+
+.topPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+  background: #f8f4f0;
+}
+.pageTitle {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.micIcon {
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.pageNav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+.pageNav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  transition: background-color 0.2s;
+}
+.pageNav a:hover {
+  background-color: #c1b5a5;
+}
+
+#Instructions {
+  width: 600px;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+}
+#Instructions h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+#Instructions ul {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+}
+.mic-toggle {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  background: #f0f0f0;
+  transition: background 0.2s;
+}
+.mic-toggle:hover {
+  background: #e0e0e0;
+}
+
+#Quotes {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#Quotes h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+#Quotes p {
+  font-style: italic;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.navButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.navButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+#carouselExample .carousel-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+filter: invert(1);
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+#sentimentImg {
+  width: 50px;
+  height: auto;
+}

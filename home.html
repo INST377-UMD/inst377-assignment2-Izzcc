@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="stylesheet" href="assignmnet.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+  <script src="global.js" defer></script>
+  <script src="home.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <title>Assignmnet 2 - Home</title>
+</head>
+
+<body>
+  <div class="topPage">
+    <h1 class="pageTitle">Home</h1>
+  </div>
+
+  <nav class="pageNav">
+    <a href="home.html">Home</a>
+    <a href="stocks.html">Stocks</a>
+    <a href="dogs.html">Dogs</a>
+  </nav>
+
+  <div id="Instructions">
+    <h3>Voice Commands</h3>  
+    <img src="https://cdn-icons-png.flaticon.com/128/9258/9258220.png" class="micIcon" id="micThing">
+    <ul>
+      <li><strong>Hello</strong> → alerts “Hello World!”</li>
+      <li>
+        <strong>Change the color to &lt;color&gt;</strong> → changes background
+      </li>
+      <li>
+        <strong>Navigate to &lt;page&gt;</strong> → jumps to that page
+      </li>
+    </ul>
+    <button id="audioOn" class="mic-toggle" onclick="startListening()">Turn On Audio</button>
+    <button id="audioOff" class="mic-toggle" onclick="stopListening()">Turn Off Audio</button>
+    </div>
+
+  <section id="Quotes">
+    <h3>Quote of the Day</h3>
+    <p id="randomQuote">Loading…</p>
+  </section>
+
+  <div class="home-buttons">
+    <button class="navButton" onclick="location.href='stocks.html'">Stocks</button>
+    <button class="navButton" onclick="location.href='dogs.html'">Dogs</button>
+  </div>
+  
+</body>
+</html>
